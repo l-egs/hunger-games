@@ -1,5 +1,5 @@
 body {
-    background-image:linear-gradient(#6C757D, #D6CBCB);
+    background-image:linear-gradient(to bottom #6C757D, #D6CBCB);
 }
 
 .title {
