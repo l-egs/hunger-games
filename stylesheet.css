@@ -4,13 +4,14 @@ body {
 
 .title {
     font-size: 37px;
+    text-align: center;
 }
 
 .navbar {
     position: fixed;
     top:0;
     width:100%;
-    overflow:hidden;
+    overflow:hidden;  
 }
 
 .navbar a{
