@@ -1,0 +1,29 @@
+body {
+    background-color:#6C757D;
+}
+
+.navbar {
+    position: fixed;
+    top:0;
+    width:100%;
+    overflow:hidden;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: #F8EDEB;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 1s ease-out 100ms
+}
+
+.navbar a:hover{
+    color: #FEC89A
+}
+
+.main {
+    margin-top: 30px;
+  }
+
