@@ -1,16 +1,41 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="stylesheet.css">
-        <script src="script.js"></script>
-</head>
-    <body>
-        <div class = "title">
-            <p>Hunger Games</p>
+
+  <head>
+    <script src="myscripts.js"></script>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div class="grid-item" id="gridItem">
+        <div class="gridHeader" id="gridHeader">DISTRICT 1</div>
+        <div class="tributeStat" id="tribStat1">
+          <img src="https://cdn.discordapp.com/attachments/675491062306963484/1010439278838423633/bandicam_2022-08-20_01-42-19-869.jpg" width=150px>  
+          <div class="text">Name: <input type="text" id="1ffullName" class="stats" placeholder="First, Last"></div>
+          <div class="text">Nickname: <input type="text" id="1fnickName" class="stats" placeholder="Nickname"></div>
+          <div class="text">Strength: <input type="number" id="1fstrengthStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Speed: <input type="number" id="1fspeedStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Charm: <input type="number" id="1fcharmStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Wits: <input type="number" id="1fwitsStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Intelligence: <input type="number" id="1fintelligenceStat" class="stats" placeholder="0-10..."></div>
         </div>
-        <div class = "navbar">
-            <p>hiiiiiiiiiiii</p>
+       <div class="tributeStat" id="tribStat2">
+          <img src="https://cdn.discordapp.com/attachments/675491062306963484/1010439278838423633/bandicam_2022-08-20_01-42-19-869.jpg" width=150px>  
+          <div class="text">Name: <input type="text" id="1mfullName" class="stats" placeholder="First, Last"></div>
+          <div class="text">Nickname: <input type="text" id="1mnickName" class="stats" placeholder="Nickname"></div>
+          <div class="text">Strength: <input type="number" id="1mstrengthStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Speed: <input type="number" id="1mspeedStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Charm: <input type="number" id="1mcharmStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Wits: <input type="number" id="1mwitsStat" class="stats" placeholder="0-10..."></div>
+          <div class="text">Intelligence: <input type="number" id="1mintelligenceStat" class="stats" placeholder="0-10..."></div>
         </div>
-        <p>hi</p>
-    </body>
+      </div>
+      </div>
+      <button type="button" id="submitButton" onclick="submitTributes()">
+      SUBMIT
+      </button>
+      <p id="errorTag">
+      
+      </p>
+  </body>
+
 </html>
