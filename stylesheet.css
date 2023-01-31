@@ -1,37 +1,30 @@
-body {
-    background-image:linear-gradient(#6C757D, #D6CBCB);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
+.grid-container {
+  display: inline-grid;
+  gap: 10px;
+  grid-auto-flow: column;
+  grid-auto-columns: 500px 500px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 30px;
+  text-align: center;
+  float: left;
+}
+.tributeStat {
+  text-align: center;
+  float: left;
+  width: 43%;
+  padding: 5px;
+  background-color: blue;
+  margin: 5px 5px 5px 5px;
 }
 
-.title {
-    font-size: 37px;
-    text-align: center;
+.text {
+  font-size: 20px;
+  color: white;
 }
 
-.navbar {
-    position: fixed;
-    top:0;
-    width:100%;
-    overflow:hidden;  
+.gridHeader {
+  font-size: 50px;
 }
-
-.navbar a{
-    float: left;
-    display: block;
-    color: #F8EDEB;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: color 1s ease-out 100ms
-}
-
-.navbar a:hover{
-    color: #FEC89A
-}
-
-.main {
-    margin-top: 30px;
-  }
-
