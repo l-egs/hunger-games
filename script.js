@@ -40,7 +40,7 @@ if ( tribute.getElementsByClassName("stats")[x].value > 10 || tribute.getElement
 document.GetElementFromId("errorTag").innerHTML = "ERROR - One or more values are above 10 or below zero. Please double check and fix any mishaps."
 }
 }
-fullname = tribute.getElementsByClassName("stats")[0].value
+name = tribute.getElementsByClassName("stats")[0].value
 nick = tribute.getElementsByClassName("stats")[1].value
 strength = tribute.getElementsByClassName("stats")[2].value
 speed = tribute.getElementsByClassName("stats")[3].value
