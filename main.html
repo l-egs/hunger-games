@@ -1,0 +1,18 @@
+<html>
+
+  <head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+<script>
+$.get("navigation.html", function(nav){
+    $("#nav-placeholder").replaceWith(nav);
+});
+</script>
+  </head>
+
+  <body>
+    <div id="nav-placeholder"></div>
+  </body>
+
+</html>

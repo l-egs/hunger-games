@@ -1,37 +1,43 @@
-body {
-    background-image:linear-gradient(#6C757D, #D6CBCB);
-    background-repeat: no-repeat;
-    background-size:cover;
-    
-}
-
-.title {
-    font-size: 37px;
+.grid-container {
+    display: inline-grid;
+    gap: 10px;
+    grid-auto-flow: column;
+    grid-auto-columns: 500px 500px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    font-size: 30px;
     text-align: center;
-}
-
-.navbar {
-    position: fixed;
-    top:0;
-    width:100%;
-    overflow:hidden;  
-}
-
-.navbar a{
     float: left;
-    display: block;
-    color: #F8EDEB;
+  }
+  .tributeStat {
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: color 1s ease-out 100ms
-}
-
-.navbar a:hover{
-    color: #FEC89A
-}
-
-.main {
-    margin-top: 30px;
+    float: left;
+    width: 43%;
+    padding: 5px;
+    background-color: blue;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  .text {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .gridHeader {
+    font-size: 50px;
   }
 
+  .nav {
+    background-color: blue;
+    overflow: hidden;
+  }
+
+  .nav a {
+    float:left;
+    color: cyan;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+  }
